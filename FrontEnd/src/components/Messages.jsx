@@ -9,7 +9,7 @@ export default function Messages({ messages = {}, chatId }) {
   }, [ChatMessages]);
 
   return (
-    <div className="flex-1 p-4 overflow-y-auto space-y-2">
+<div className="flex-1 overflow-y-auto p-4">
       {ChatMessages.map((msg, index) => (
         <div
           key={index}
