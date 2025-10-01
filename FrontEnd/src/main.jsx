@@ -4,7 +4,7 @@ import "./index.css";
 import { ThemeProvider } from "./components/ThemeProvider.jsx";
 import ReactDOM from "react-dom/client";
 import Login from "./pages/Login";
-import Register from "./pages/Register.jsx";
+import Register  from "./pages/Register.jsx"; 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <ThemeProvider>
